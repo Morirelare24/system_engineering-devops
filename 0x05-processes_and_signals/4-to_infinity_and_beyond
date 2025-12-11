@@ -1,0 +1,10 @@
+cat > 4-to_infinity_and_beyond <<'EOF'
+#!/usr/bin/env bash
+# This script displays "To infinity and beyond" indefinitely
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
+EOF
